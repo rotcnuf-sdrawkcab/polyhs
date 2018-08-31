@@ -1,6 +1,7 @@
 NAME= polyhs
-SRC = Parser.hs GeneralParsers.hs \
-      EquationParser.hs EquationTypes.hs \
+SRC = Parser.hs GeneralParsers.hs 	   \
+      EquationParser.hs EquationTypes.hs   \
+      EquationHelpers.hs EquationSolver.hs \
       main.hs
 HI_F= $(SRC:.hs=.hi)
 OBJ = $(SRC:.hs=.o)
